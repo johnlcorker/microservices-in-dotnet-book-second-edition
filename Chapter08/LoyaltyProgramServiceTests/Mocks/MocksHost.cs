@@ -6,8 +6,9 @@ namespace LoyaltyProgramServiceTests.Mocks
   using Microsoft.AspNetCore.Hosting;
   using Microsoft.Extensions.DependencyInjection;
   using Microsoft.Extensions.Hosting;
-
-  public class MocksHost : IDisposable
+    //added text for pull request
+    //added text for branch
+    public class MocksHost : IDisposable
   {
     private readonly IHost hostForMocks;
 
