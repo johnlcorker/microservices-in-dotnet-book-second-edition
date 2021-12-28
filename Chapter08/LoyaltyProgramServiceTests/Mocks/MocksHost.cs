@@ -8,6 +8,7 @@ namespace LoyaltyProgramServiceTests.Mocks
   using Microsoft.Extensions.Hosting;
     //added text for pull request
     //added text for branch
+    //added text for second push
     public class MocksHost : IDisposable
   {
     private readonly IHost hostForMocks;
