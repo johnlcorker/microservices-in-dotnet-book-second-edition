@@ -11,7 +11,7 @@ namespace ShoppingCart.ShoppingCart
     public int UserId { get; }
     public IEnumerable<ShoppingCartItem> Items => this.items;
 
-    public ShoppingCart(int userId) => this.UserId = userId;
+    public ShoppingCart(int userId) => this.UserId = userId; 
 
     public void AddItems(IEnumerable<ShoppingCartItem> shoppingCartItems, IEventStore eventStore)
     {
